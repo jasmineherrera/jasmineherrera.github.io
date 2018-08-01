@@ -1,0 +1,47 @@
+
+
+h1 {
+  color:brown;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 70px;
+}
+h4{
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+  text-align: center;
+}
+
+div.background {
+  background-image: url("http://cdn2-www.dogtime.com/assets/uploads/gallery/pug-dog-breed-pictures/2-face.jpg");
+  /*opacity:0.6;
+  filter: alpha(opacity=60);
+  */
+  border:4px solid black;
+}
+
+div.transbox {
+  margin:30px;
+  background-color:white;
+  border:2px solid black;
+  opacity: 0.8;
+  filter:alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+/*
+.background-image{
+  background-image: url("http://cdn2-www.dogtime.com/assets/uploads/gallery/pug-dog-breed-pictures/2-face.jpg")
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+*/
